@@ -5,5 +5,8 @@ function greet(name) {
 }
 const user = "Riyaz";
 console.log(greet(user));
-// console.log(greet(123));
+// The last line will cause a TypeScript error because '1' is not a string.
+// To fix the error, we should pass a string argument to the greet function.
+// console.log(greet("1"));
+// console.log(greet(1));
 //# sourceMappingURL=index.js.map
